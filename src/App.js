@@ -8,7 +8,9 @@ function App() {
     <div className='holder'>
       <h1>Hi beautiful soul, signup or login to know the truth of life XD</h1>
       <Login />
-
+      <marquee width="30%" direction="left" height="100px">
+        this is footer 🐱‍👤 @ninjaNirajan
+      </marquee>
     </div>
   );
 }
