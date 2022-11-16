@@ -9,10 +9,17 @@ function App() {
     <>
       <div>
         {!isAuthenticated && <h1>Homepage</h1>} <nav>let us consider this is a navbar</nav>
+        {isAuthenticated &&
+          <div className='profile'>
+            <h2>I guess this is you:</h2>
+            <img src={user.picture} alt={user.name} />
+            <h2>{user.name}</h2>
+            <p>{user.email}</p>
+          </div>
+        }
       </div>
       <div className='holder'>
-
-        <h1>Hi beautiful soul, signup or login to know the truth of life XD</h1>
+        {isAuthenticated ? <h1>ハハ、私はあなたの時間を無駄にしているだけよ、バイバイ</h1> : <h1>Hi beautiful soul, signup or login to know the truth of life XD</h1>}
         {isAuthenticated ? <Logout /> : <Login />}
       </div>;
       <marquee width="30%" direction="left" height="100px">

@@ -27,3 +27,13 @@ button:hover {
     flex-direction: column;
     justify-content: space-between;
 }
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border: 2px solid rgb(120, 248, 175);
+    border-radius: 10px;
+}
