@@ -1,0 +1,29 @@
+h1 {
+    color: rgb(64, 83, 92);
+    font-size: x-large;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+button {
+    margin: 50px 0;
+    background-color: rgb(89, 89, 225);
+    color: white;
+    font-size: large;
+    padding: 3px 20px;
+    border: 9px solid white;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 100px 0 rgb(101, 101, 245);
+    transform: scale(1.1);
+}
+
+.holder {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
