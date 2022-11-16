@@ -29,11 +29,16 @@ button:hover {
 }
 
 .profile {
+    margin: 8px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 8px;
-    border: 2px solid rgb(120, 248, 175);
+    border: 7px solid rgb(120, 248, 175);
     border-radius: 10px;
+}
+
+.imgprofile {
+    border-radius: 100%;
 }

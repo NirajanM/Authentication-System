@@ -12,7 +12,7 @@ function App() {
         {isAuthenticated &&
           <div className='profile'>
             <h2>I guess this is you:</h2>
-            <img src={user.picture} alt={user.name} />
+            <img src={user.picture} className="imgprofile" alt={user.name} />
             <h2>{user.name}</h2>
             <p>{user.email}</p>
           </div>
